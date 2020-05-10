@@ -30,7 +30,7 @@ class WebsocketInterface implements WampServerInterface
      *
      * @return void
      */
-    public function __construct(): void
+    public function __construct()
     {
         $this->__session = Session::create(Configure::read('Session'));
     }

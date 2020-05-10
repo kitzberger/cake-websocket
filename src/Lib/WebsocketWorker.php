@@ -52,7 +52,7 @@ class WebsocketWorker extends Base
         WebsocketInterface $websocketInterface,
         EngineInterface $engine,
         LoggerInterface $logger = null
-    ): void {
+    ) {
         $this->__loop = $loop;
         $this->__websocketInterface = $websocketInterface;
         $this->__logger = $logger;
