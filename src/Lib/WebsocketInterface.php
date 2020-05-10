@@ -3,7 +3,7 @@ declare(strict_types = 1);
 namespace Websocket\Lib;
 
 use Cake\Core\Configure;
-use Cake\Network\Session;
+use Cake\Http\Session;
 use Exception;
 use Ratchet\ConnectionInterface;
 use Ratchet\Wamp\WampServerInterface;
